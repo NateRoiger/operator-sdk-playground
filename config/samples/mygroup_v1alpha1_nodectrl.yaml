@@ -1,0 +1,8 @@
+apiVersion: mygroup.example.com/v1alpha1
+kind: NodeCtrl
+metadata:
+  name: nodectrl-sample
+  namespace: operator-sdk-playground-system
+spec:
+  name: example-nodersrc
+  namespace: example-nodersrcnamespace
